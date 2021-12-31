@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li,a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@font-face{
+    font-family: inter;
+    src: url(Fontes/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face{
+    font-family: sora;
+    src: url(Fontes/Sora-VariableFont_wght.ttf);
+}
+.Navbar-Principal li{
+    margin: 20px;
+    font-family: inter;
+}
+.Navbar-Principal li a{
+    color: #6E7275;
+    font-size: 18px;
+    line-height: 22px;
+}
+.container a img{
+    margin-top: 20px;
+}
+article.texto-primario{
+    font-size: 48px;
+    font-family: inter;
+    color: #293145;
+}
+article.texto-primario button{
+    background: #0F9AFE;
+    border: none;
+    box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+    border-radius: 50px;
+    padding: 16px 36px;
+    color: white;
+    width: 200px;
+    height: 56px;
+    margin-top: 50px;
+}
+article.imagem-principal{
+    flex-grow: 0;
+}
+.segundaSection{
+    height: 475px;
+
+}
+.imagens-segundaSection div.foto p{
+    font-family: sora;
+    line-height: 26px;
+    color: #6E7275;
+}
+.imagens-segundaSection div.foto h4{
+    font-size: 18px;
+    font-family: sora;
+}
+.imagens-segundaSection div.foto h4{
+    font-size: 18px;
+    font-family: sora;
+}
+.texto-ComoFunciona h1{
+    font-family: sora;
+}
+/* TERCEIRA SECTION */
+.section-Terceira{
+    height: 475px;
+    background: #EFF8FF;
+}
+.section-Terceira h1{
+    font-size: 32px;
+    line-height: 40px;
+    font-family: sora;
+    margin-bottom: 20px;
+    color: #293145;
+}
+.section-Terceira p{
+    font-family: sora;
+    color: #6E7275;
+    line-height: 26px;
+    margin-bottom: 30px;
+    width: 444px;
+    height: 78px;
+}
+/* QUARTA SECTION */
+.quarta-section{
+    height: 750px;
+    text-align: center;
+}
+.quarta-section h1.quarta{
+    font-size: 32px;
+    line-height: 40px;
+    font-family: sora;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #293145;
+}
+.quarta-section p{
+    font-family: sora;
+    color: #6E7275;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+div.planos{
+    width: 370px;
+    height: 471px;
+    padding: 30px;
+    margin-right: 25px;
+}
+.planos h1{
+    font-size: 50px;
+    line-height: 59px;
+    line-height: 40px;
+    font-family: inter;
+}
+.planos h3{
+    font-size: 24px;
+    line-height: 40px;
+    font-family: inter;
+    margin-bottom: 60px;
+}
+.planos p{
+    margin-top: 25%;
+}
+.planos span.real{
+    font-size: 18px;
+    position: relative;
+    bottom: 20px;
+}
+.planos span.mes{
+    font-size: 18px;
+}
+div.azul{
+    background: #EFF8FF;
+    border-radius: 8px;
+    color: #293145;
+}
+div.escuro{
+    background: #293145;
+    border-radius: 8px;
+    color: white;
+}
+div.escuro h3{
+    background: #293145;
+    border-radius: 8px;
+    color: white;
+    font-size: 32px;
+}
+div.escuro h1{
+    position: relative;
+    bottom: 25px;
+}
+div.escuro p{
+    color: white;
+    position: relative;
+    bottom: 25px;
+}
+div.escuro button.assinar{
+    color: white;
+    position: relative;
+    bottom: 30px;
+}
+div.planos button.assinar{
+    background: #0F9AFE;
+    font-family: inter;
+    box-shadow: 1px 3px 10px rgba(17, 37, 56, 0.5);
+    border-radius: 50px;
+    width: 230px;
+    height: 43px;
+    color: white;
+    border: none;
+}
+div.planos button.preferido{
+    background: #0F9AFE;
+    font-family: inter;
+    box-shadow: 1px 3px 10px rgba(17, 37, 56, 0.5);
+    border-radius: 50px;
+    width: 164px;
+    height: 27px;
+    color: white;
+    border: none;
+    position: relative;
+    bottom: 50px;
+    line-height: 27px;
+}
+/* quinta section */
+.quinta-section h1{
+    font-size: 32px;
+    line-height: 40px;
+    font-family: sora;
+    margin-bottom: 20px;
+    color: #293145;
+}
+.quinta-section p{
+    font-family: sora;
+    color: #6E7275;
+    line-height: 26px;
+    margin-bottom: 30px;
+    width: 444px;
+    height: 78px;
+}

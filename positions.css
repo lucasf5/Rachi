@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.Navbar-Principal{
+    display: flex;
+}
+section.Primeiro-Box{
+    height: 640px;
+    background: #EFF8FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.texto-ComoFunciona{
+    text-align: center;
+    color: #293145;
+    font-size: 40px;
+    line-height: 50px;
+    font-family: sora;
+    font-style: normal;
+    margin-top: 40px;
+}
+.imagens-segundaSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagens-segundaSection div.foto{
+    width: 210px;
+    height: 210px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: sora;
+}
+.imagens-segundaSection div.foto h4{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: inter;
+}
+/* TERCEIRA SECTION */
+.section-Terceira{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.textoEfotosEstore{
+    margin-left: 60px;
+}
+/* QUARTA SECTION */
+
+.planos-geral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -55,3 +55,45 @@ section.Primeiro-Box{
     justify-content: center;
     align-items: center;
 }
+@media(max-width: 768px){
+    /* body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 100%;
+    } */
+    .container{
+        flex-direction: column;
+    }
+    .Primeiro-Box{
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .Primeiro-Box .imagem-principal img{
+        display: none !important;
+    }
+    .section-Terceira{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+    .section-Terceira .textoEfotosEstore{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+    .section-Terceira img.imagem-notifi{
+        display: none !important;
+    }
+    .planos-geral{
+        flex-direction: column;
+    }
+    .planos{
+        margin-bottom: 20px;
+    }
+    .quarta-section .planos-geral{
+        text-align: center;
+    }
+}
